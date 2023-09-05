@@ -1,0 +1,21 @@
+
+.task {
+    border: 2px solid black; /* Border */
+    padding: 10px; /* Padding around the task element */
+    margin: 10px 0; /* Margin between task elements */
+  }
+  
+  .task h2 {
+    font-size: 20px; /* Title font size */
+    margin-bottom: 10px; /* Margin below the title */
+  }
+  
+  .task p {
+    font-size: 16px; /* Text font size */
+    margin: 0; /* Reset margin for paragraphs */
+  }
+  
+  .task.completed {
+    background-color: #e0e0e0; /* Background color for completed tasks */
+  }
+  
